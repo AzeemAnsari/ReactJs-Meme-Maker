@@ -1,6 +1,6 @@
 # ReactJs Weather PWA
 
-### [Live Site](https://memes.azeemansari.me/)
+### [Live Demo](https://memes.azeemansari.me/)
 
 ![React Advice PWA](https://i.ibb.co/GHy5x7z/Meme-Generator-Azeem-Ansari.png)
 
