@@ -6,16 +6,29 @@ import { useClipboard } from 'use-clipboard-copy';
 
 const useStyles = makeStyles((theme) => ({
   btnMargin: {
-    marginTop: theme.spacing(4),
+    marginTop: theme.spacing(2),
     marginBottom: theme.spacing(2),
     marginLeft: 'auto',
     marginRight: 'auto',
     width: '100%',
     display: 'flex',
     justifyContent: 'space-evenly',
+    '@media (max-width: 600px)': {
+      flexDirection: 'column',
+      alignItems: 'center',
+    },
   },
   btnWidth: {
     width: '40%',
+    '@media (max-width: 600px)': {
+      display: 'block',
+      width: '65%',
+      marginBottom: theme.spacing(1),
+      marginTop: theme.spacing(1),
+    },
+    '@media (max-width: 320px)': {
+      width: '72%',
+    },
   },
   memeImg: {
     marginTop: theme.spacing(3),

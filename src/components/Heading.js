@@ -8,6 +8,9 @@ const useStyles = makeStyles(() => ({
     fontSize: '2rem',
     color: '#424242',
     textAlign: 'center',
+    '@media (max-width: 320px)': {
+      fontSize: '1.5rem',
+    },
   },
 }));
 
